@@ -1,0 +1,44 @@
+&param_chiqw
+Num_freq_grid=1,
+MPI_num_qcomm=1,
+flg_cRPA=1/           
+
+&param_wannier
+icell=0
+N_wannier=5,               
+Lower_energy_window=10.9d0,
+Upper_energy_window=17.0d0,
+FLG_BMAT=0
+N_initial_guess=5/         
+dxy  0.5d0   0.0000000000d0  0.0000000000d0  0.0000000000d0
+dyz  0.5d0   0.0000000000d0  0.0000000000d0  0.0000000000d0
+dz2  0.5d0   0.0000000000d0  0.0000000000d0  0.0000000000d0
+dzx  0.5d0   0.0000000000d0  0.0000000000d0  0.0000000000d0
+dx2  0.5d0   0.0000000000d0  0.0000000000d0  0.0000000000d0
+
+&param_interpolation
+N_sym_points=6/      
+0.0000 0.0000 0.0000
+0.0000 0.5000 0.0000
+0.5000 0.5000 0.0000
+0.0000 0.0000 0.0000
+0.5000 0.5000 0.5000
+0.0000 0.5000 0.0000
+ 
+&PARAM_VISUALIZATION
+ FLG_VIS_WANNIER =          1,
+ IX_VIS_MIN      =          -1,
+ IX_VIS_MAX      =          2,
+ IY_VIS_MIN      =          -1,
+ IY_VIS_MAX      =          2,
+ IZ_VIS_MIN      =          -1,
+ IZ_VIS_MAX      =          2
+/
+&param_calc_int
+ix_intJ_min=-1, 
+ix_intJ_max=1, 
+iy_intJ_min=-1, 
+iy_intJ_max=1, 
+iz_intJ_min=-1, 
+iz_intJ_max=1/ 
+

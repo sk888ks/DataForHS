@@ -1,0 +1,5 @@
+﻿i_int,t_pps,t_pqs,U_pp,U_pq,J1,J2,J3,total(int_term),total(fSWAP_term),total(both)
+N_gates^i_int,10,162,5,3532,20,10,10,3749,-,-
+N_gates[N_cells=100](1qubit),10,1620,20,14128,80,720,720,1729800,998000,2727800
+N_gates[N_cells=100](CNOT),0,648,10,7064,40,480,480,872200,998000,1870200
+N_gates[N_cells=100](total),10,2268,30,21192,120,1200,1200,2602000,1996000,4598000
